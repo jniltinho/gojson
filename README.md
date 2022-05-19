@@ -7,7 +7,7 @@ gojson generates go struct definitions from json or yaml documents.
 Example
 ----------
 
-```shell
+```bash
 $ curl -s https://api.github.com/users/jniltinho|gojson -name=Users
 
 package main
@@ -103,7 +103,7 @@ type Repository struct {
 CLI Installation
 ----------------
 
-```shell
+```bash
 go install github.com/jniltinho/gojson/gojson@latest
 ```
 
@@ -113,7 +113,7 @@ Assuming `$GOPATH/bin` is in your `PATH`, you can now invoke `gojson` directly.
 API Installation
 ----------------
 
-```shell
+```bash
 go get github.com/jniltinho/gojson/gojson
 ```
 
